@@ -1,0 +1,108 @@
+{
+  "buildings": [
+    {
+      "id": 1,
+      "name": "A教",
+      "type": "教学楼",
+      "area": 8500,
+      "electricity": {
+        "current": 3650,
+        "trend": [
+          { "date": "2024-01", "value": 3200 },
+          { "date": "2024-02", "value": 3400 },
+          { "date": "2024-03", "value": 3550 },
+          { "date": "2024-04", "value": 3650 }
+        ]
+      },
+      "water": {
+        "current": 520,
+        "trend": [
+          { "date": "2024-01", "value": 480 },
+          { "date": "2024-02", "value": 500 },
+          { "date": "2024-03", "value": 510 },
+          { "date": "2024-04", "value": 520 }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "B教",
+      "type": "教学楼",
+      "area": 9200,
+      "electricity": {
+        "current": 4100,
+        "trend": [
+          { "date": "2024-01", "value": 3800 },
+          { "date": "2024-02", "value": 3900 },
+          { "date": "2024-03", "value": 4000 },
+          { "date": "2024-04", "value": 4100 }
+        ]
+      },
+      "water": {
+        "current": 480,
+        "trend": [
+          { "date": "2024-01", "value": 450 },
+          { "date": "2024-02", "value": 460 },
+          { "date": "2024-03", "value": 470 },
+          { "date": "2024-04", "value": 480 }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "C教",
+      "type": "教学楼",
+      "area": 7800,
+      "electricity": {
+        "current": 3350,
+        "trend": [
+          { "date": "2024-01", "value": 3100 },
+          { "date": "2024-02", "value": 3200 },
+          { "date": "2024-03", "value": 3300 },
+          { "date": "2024-04", "value": 3350 }
+        ]
+      },
+      "water": {
+        "current": 420,
+        "trend": [
+          { "date": "2024-01", "value": 400 },
+          { "date": "2024-02", "value": 410 },
+          { "date": "2024-03", "value": 415 },
+          { "date": "2024-04", "value": 420 }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "四维大楼",
+      "type": "综合楼",
+      "area": 11500,
+      "electricity": {
+        "current": 4850,
+        "trend": [
+          { "date": "2024-01", "value": 4500 },
+          { "date": "2024-02", "value": 4600 },
+          { "date": "2024-03", "value": 4750 },
+          { "date": "2024-04", "value": 4850 }
+        ]
+      },
+      "water": {
+        "current": 550,
+        "trend": [
+          { "date": "2024-01", "value": 520 },
+          { "date": "2024-02", "value": 530 },
+          { "date": "2024-03", "value": 540 },
+          { "date": "2024-04", "value": 550 }
+        ]
+      }
+    }
+  ],
+  "energySettings": {
+    "electricityPrice": 0.7,
+    "waterPrice": 3.0,
+    "thresholds": {
+      "electricity": 4000,
+      "water": 500
+    }
+  }
+}
